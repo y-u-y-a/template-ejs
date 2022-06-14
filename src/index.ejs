@@ -1,0 +1,28 @@
+<% const pageLinkList = [ {name: "フォーム画面 ▶︎", link: "./form.html"}, {name: "確認画面 ▶︎", link: "./confirm.html"}, {name: "完了画面 ▶︎", link: "./complete.html"}, ]; const testButtonList = [ {name: "APIをテストする", id: "api-get-test"}, ]; %>
+
+<!DOCTYPE html>
+<html lang="ja">
+  <%- include('./components/common/_head', { level: '.' }) %>
+  <body class="footerFixedContainer">
+    <%- include('./components/common/_header') %>
+    <main class="w-2/4 mx-auto">
+      <p class="my-4">画面遷移用リンク一覧</p>
+      <ul class="flex justify-between items-center gap-8">
+        <% for (const item of pageLinkList) { %>
+        <li>
+          <a class="bg-gray-200 rounded-md w-60 py-10 text-center block border-box hover:opacity-60 duration-300" href="<%= item.link %>"><%= item.name %></a>
+        </li>
+        <% } %>
+      </ul>
+      <p class="my-4">テスト用ボタン一覧</p>
+      <ul class="flex justify-between items-center gap-8">
+        <% for (const item of testButtonList) { %>
+        <li>
+          <button class="bg-gray-200 rounded-md w-60 py-10 text-center block border-box hover:opacity-60 duration-300" type="button" id="<%= item.id %>"><%= item.name %></button>
+        </li>
+        <% } %>
+      </ul>
+    </main>
+    <%- include('./components/common/_footer', { wrapClass: "footerFixed" }) %>
+  </body>
+</html>

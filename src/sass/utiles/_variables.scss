@@ -1,0 +1,361 @@
+$fz12: 0.75rem;
+$fz14: 0.89rem;
+
+$white: #fff;
+$gray-50: #fafafa;
+$gray-80: #f4f4f4;
+$gray-90: #dddddd;
+$gray-100: #f5f5f5;
+$gray-200: #d7d7d7;
+$gray-300: #dfdfdf;
+$gray-400: #8a8a8a;
+$gray-500: #bfbfbf;
+$gray-600: #e9e9e9;
+$gray-700: #e4e4e4;
+$gray-800: #cfcdcd;
+$gray-900: #585858;
+$disabled: #acacac;
+$black: #303030;
+
+$red: #cc0022;
+$red-50: #ffebee;
+$red-100: #fdeaea;
+$red-200: #f5ccd3;
+$red-300: #f9d5db;
+$red-400: #ffe8ec;
+$red-500: #ffeef1;
+$red-600: #fff4f6;
+$error: #e10031;
+
+// white *********************************
+.text-white {
+  color: $white;
+}
+.bg-white {
+  background: $white;
+}
+.border-white {
+  border: 1px solid $white;
+}
+.border2-white {
+  border: 2px solid $white;
+}
+// black *********************************
+.text-black {
+  color: $black;
+}
+.bg-black {
+  background: $black;
+}
+.border-black {
+  border: 1px solid $black;
+}
+.border2-black {
+  border: 2px solid $black;
+}
+// error *********************************
+.text-error {
+  color: $error;
+}
+.bg-error {
+  background: $error;
+}
+.border-error {
+  border: 1px solid $error;
+}
+.border2-error {
+  border: 2px solid $error;
+}
+// red *********************************
+.text-red {
+  color: $red;
+}
+.bg-red {
+  background: $red;
+}
+.border-red {
+  border: 1px solid $red;
+}
+.border2-red {
+  border: 2px solid $red;
+}
+// red 50 *****************************
+.text-red-50 {
+  color: $red-50;
+}
+.bg-red-50 {
+  background: $red-50;
+}
+.border-red-50 {
+  border: 1px solid $red-50;
+}
+.border2-red-50 {
+  border: 2px solid $red-50;
+}
+// red 100 *****************************
+.text-red-100 {
+  color: $red-100;
+}
+.bg-red-100 {
+  background: $red-100;
+}
+.border-red-100 {
+  border: 1px solid $red-100;
+}
+.border2-red-100 {
+  border: 2px solid $red-100;
+}
+// red 200 *****************************
+.text-red-200 {
+  color: $red-200;
+}
+.bg-red-200 {
+  background: $red-200;
+}
+.border-red-200 {
+  border: 1px solid $red-200;
+}
+.border2-red-200 {
+  border: 2px solid $red-200;
+}
+// red 300 *****************************
+.text-red-300 {
+  color: $red-300;
+}
+.bg-red-300 {
+  background: $red-300;
+}
+.border-red-300 {
+  border: 1px solid $red-300;
+}
+.border2-red-300 {
+  border: 2px solid $red-300;
+}
+// red 400 *****************************
+.text-red-400 {
+  color: $red-400;
+}
+.bg-red-400 {
+  background: $red-400;
+}
+.border-red-400 {
+  border: 1px solid $red-400;
+}
+.border2-red-400 {
+  border: 2px solid $red-400;
+}
+// red 500 *****************************
+.text-red-500 {
+  color: $red-500;
+}
+.bg-red-500 {
+  background: $red-500;
+}
+.border-red-500 {
+  border: 1px solid $red-500;
+}
+.border2-red-500 {
+  border: 2px solid $red-500;
+}
+// red 600 *****************************
+.text-red-600 {
+  color: $red-600;
+}
+.bg-red-600 {
+  background: $red-600;
+}
+.border-red-600 {
+  border: 1px solid $red-600;
+}
+.border2-red-600 {
+  border: 2px solid $red-600;
+}
+// gray 50 *****************************
+.text-gray-50 {
+  color: $gray-50;
+}
+.bg-gray-50 {
+  background: $gray-50;
+}
+.border-gray-50 {
+  border: 1px solid $gray-50;
+}
+.border2-gray-50 {
+  border: 2px solid $gray-50;
+}
+// gray 80 *****************************
+.text-gray-80 {
+  color: $gray-80;
+}
+.bg-gray-80 {
+  background: $gray-80;
+}
+.border-gray-80 {
+  border: 1px solid $gray-80;
+}
+.border2-gray-80 {
+  border: 2px solid $gray-80;
+}
+// gray 90 *****************************
+.text-gray-90 {
+  color: $gray-90;
+}
+.bg-gray-90 {
+  background: $gray-90;
+}
+.border-gray-90 {
+  border: 1px solid $gray-90;
+}
+.border2-gray-90 {
+  border: 2px solid $gray-90;
+}
+// gray 100 ****************************
+.text-gray-100 {
+  color: $gray-100;
+}
+.bg-gray-100 {
+  background: $gray-100;
+}
+.border-gray-100 {
+  border: 1px solid $gray-100;
+}
+.border2-gray-100 {
+  border: 2px solid $gray-100;
+}
+// gray 200 ****************************
+.text-gray-200 {
+  color: $gray-200;
+}
+.bg-gray-200 {
+  background: $gray-200;
+}
+.border-gray-200 {
+  border: 1px solid $gray-200;
+}
+.border2-gray-200 {
+  border: 2px solid $gray-200;
+}
+// gray 300 ****************************
+.text-gray-300 {
+  color: $gray-300;
+}
+.bg-gray-300 {
+  background: $gray-300;
+}
+.border-gray-300 {
+  border: 1px solid $gray-300;
+}
+.border2-gray-300 {
+  border: 2px solid $gray-300;
+}
+.border-x-gray-300 {
+  border-left: 1px solid $gray-300;
+  border-right: 1px solid $gray-300;
+}
+.border-y-gray-300 {
+  border-top: 1px solid $gray-300;
+  border-bottom: 1px solid $gray-300;
+}
+.border-t-gray-300 {
+  border-top: 1px solid $gray-300;
+}
+.border-b-gray-300 {
+  border-bottom: 1px solid $gray-300;
+}
+.border-l-gray-300 {
+  border-left: 1px solid $gray-300;
+}
+.border-r-gray-300 {
+  border-right: 1px solid $gray-300;
+}
+// gray-400 ****************************
+.text-gray-400 {
+  color: $gray-400;
+}
+.bg-gray-400 {
+  background: $gray-400;
+}
+.border-gray-400 {
+  border: 1px solid $gray-400;
+}
+.border2-gray-400 {
+  border: 2px solid $gray-400;
+}
+// gray-500 ****************************
+.text-gray-500 {
+  color: $gray-500;
+}
+.bg-gray-500 {
+  background: $gray-500;
+}
+.border-gray-500 {
+  border: 1px solid $gray-500;
+}
+.border2-gray-500 {
+  border: 2px solid $gray-500;
+}
+// gray-600 ****************************
+.text-gray-600 {
+  color: $gray-600;
+}
+.bg-gray-600 {
+  background: $gray-600;
+}
+.border-gray-600 {
+  border: 1px solid $gray-600;
+}
+.border2-gray-600 {
+  border: 2px solid $gray-600;
+}
+// gray-700 ****************************
+.text-gray-700 {
+  color: $gray-700;
+}
+.bg-gray-700 {
+  background: $gray-700;
+}
+.border-gray-700 {
+  border: 1px solid $gray-700;
+}
+.border2-gray-700 {
+  border: 2px solid $gray-700;
+}
+// gray-800 ****************************
+.text-gray-800 {
+  color: $gray-800;
+}
+.bg-gray-800 {
+  background: $gray-800;
+}
+.border-gray-800 {
+  border: 1px solid $gray-800;
+}
+.border2-gray-800 {
+  border: 2px solid $gray-800;
+}
+// gray-900 ****************************
+.text-gray-900 {
+  color: $gray-900;
+}
+.bg-gray-900 {
+  background: $gray-900;
+}
+.border-gray-900 {
+  border: 1px solid $gray-900;
+}
+.border2-gray-900 {
+  border: 2px solid $gray-900;
+}
+// disabled ****************************
+.text-disabled {
+  color: $disabled;
+}
+.bg-disabled {
+  background: $disabled;
+}
+.border-disabled {
+  border: 1px solid $disabled;
+}
+.border2-disabled {
+  border: 2px solid $disabled;
+}

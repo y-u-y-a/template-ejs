@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** フッターの固定のため */
+.footerFixedContainer {
+  @apply relative min-h-screen box-border;
+}
+.footerFixed {
+  @apply absolute bottom-0 w-full;
+}
+
+// utiles
+// @import 'utiles/reset';
+// @import 'utiles/breakpoints';
+// @import 'utiles/variables';
+// @import 'utiles/layout';
